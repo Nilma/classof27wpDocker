@@ -1,0 +1,30 @@
+# Environment variables (passwords and credentials)
+.env
+.env.*
+!.env.example
+
+# WordPress content (plugins, themes, uploads)
+wp-content/
+
+# Database files and backups
+*.sql
+*.sql.gz
+*.dump
+
+# Local database directories
+db_data/
+mysql_data/
+
+# macOS files
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
